@@ -10,10 +10,10 @@ Faça um Programa que peça um número e então mostre a mensagem O número info
 ## Exercicio 003
 Faça um Programa que peça dois números e imprima a soma.
 
-## Exercicio 004
+## Exercicio 005
 Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
-## Exercicio 005
+## Exercicio 004
 Faça um Programa que converta metros para centímetros.
 
 ## Exercicio 006
