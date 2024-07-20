@@ -14,9 +14,10 @@ public class exercicio007 {
         System.out.print("Informe  altura do quadrado: ");
         double altura = leitor.nextDouble();
 
-        double areaQuadrado = base*altura;
+        double areaQuadrado = base * altura;
+        double dobroAreaQuadrado = areaQuadrado * areaQuadrado;
 
-        System.out.printf("Area quadrado = %.2f",areaQuadrado);
+        System.out.printf("o Dobro da Area do quadrado = %.2f", dobroAreaQuadrado);
 
         leitor.close();
     }
