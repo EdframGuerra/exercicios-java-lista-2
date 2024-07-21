@@ -14,8 +14,9 @@ public class Farenheit {
         double celsius = (5*(farenheit-32)/9);
 
         System.out.printf("%.2f", farenheit);
-        System.out.print(" graus = ");
-        System.out.print(celsius+ " graus");
+        System.out.print(" °F = ");
+        System.out.printf("%.2f", celsius);
+        System.out.println(" °C");
 
         leitor.close();
     }
