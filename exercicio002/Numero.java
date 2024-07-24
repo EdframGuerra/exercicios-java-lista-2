@@ -1,5 +1,6 @@
 package exercicio002;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -8,10 +9,14 @@ public class Numero {
         Locale.setDefault(Locale.US);
         Scanner leitor = new Scanner(System.in);
 
-        System.out.print("Digite um numero: ");
-        int numero = leitor.nextInt();
+        try {
+            System.out.print("Digite um numero: ");
+            int numero = leitor.nextInt();
 
-        System.out.println("O numero digitado foi: " + numero);
-        leitor.close();
+            System.out.println("O numero digitado foi: " + numero);
+            leitor.close();
+        } catch (InputMismatchException e) {
+            System.out.println("O numero digitado é invalido");
+        }
     }
 }
