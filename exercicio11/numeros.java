@@ -2,7 +2,7 @@ package exercicio11;
 
 import java.util.Locale;
 import java.util.Scanner;
-imprt java.util.InputMismatchException;
+import java.util.InputMismatchException;
 
 public class numeros {
     public static void main(String[] args) {
