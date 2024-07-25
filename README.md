@@ -58,7 +58,7 @@ Calcule e mostre o total do seu salário no referido mês, sabendo-se que são d
 - IR (11%) : R$
 - INSS (8%) : R$
 - Sindicato ( 5%) : R$
-= Salário Liquido : R$
+- Salário Liquido : R$
 Obs.: Salário Bruto - Descontos = Salário Líquido.
 
 ## Exercicio 016
