@@ -1,4 +1,4 @@
-package Exercicio016;
+package exercicio016;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
@@ -24,7 +24,7 @@ public class Tinta {
 
             leitor.close();
         } catch (InputMismatchException e) {
-            System.out.println();
+            System.out.println("Erro: Entrada invalda");
         }
     }
 }
