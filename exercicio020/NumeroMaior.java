@@ -1,4 +1,4 @@
-package exercicio019;
+package exercicio020;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
