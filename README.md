@@ -86,11 +86,13 @@ misturar latas e galões, de forma que o preço seja o menor.
 Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
 
 Estruturas de decisão
+
 ## Exercicio 019
-Faça um Programa que peça dois números e imprima o maior deles.
+Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 
 ## Exercicio 020
-Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+Faça um Programa que peça dois números e imprima o maior deles.
+
 
 ## Exercicio 021
 Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
