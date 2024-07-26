@@ -24,7 +24,7 @@ public class Tinta {
 
             leitor.close();
         } catch (InputMismatchException e) {
-            System.out.println("Erro: Entrada invalda");
+            System.out.println("Erro: Entrada invalda!");
         }
     }
 }
