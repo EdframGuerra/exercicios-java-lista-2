@@ -6,7 +6,7 @@ public class Genero {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
-        System.out.println("Informe o sexo (M/F)");
+        System.out.print("Informe o sexo (M/F)");
         char sexo = leitor.nextLine().charAt(0);
 
         if (sexo == 'M' || sexo == 'm') {
