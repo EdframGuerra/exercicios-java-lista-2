@@ -1,5 +1,6 @@
 package exercicio24;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -34,7 +35,7 @@ public class NumeroMaior {
 
             leitor.close();
 
-        } catch (Exception e) {
+        } catch (InputMismatchException e) {
             System.out.println("Erro: Entrada invalida");
         }
     }
