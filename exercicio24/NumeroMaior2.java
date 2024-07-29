@@ -20,18 +20,16 @@ public class NumeroMaior2 {
 
             if (numero1 > numeroMaior) {
                 numeroMaior = numero1;
-                System.out.println(numero1);
             }
 
             if (numero2 > numeroMaior) {
                 numeroMaior = numero2;
-                System.out.println(numero2);
             }
 
             if (numero3 > numeroMaior) {
                 numeroMaior = numero3;
-                System.out.println(numero3);
             }
+            System.out.println("Numero maior" + numeroMaior);
 
             leitor.close();
         } catch (InputMismatchException e) {
