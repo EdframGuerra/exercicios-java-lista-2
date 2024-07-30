@@ -21,12 +21,12 @@ public class ProgramaSalario {
             double inss = (salario.inss(hora, valorHora) / salario.salarioBruto(hora, valorHora)) * 100;
             double irpf = (salario.irpf(hora, valorHora) / salario.salarioBruto(hora, valorHora)) * 100;
 
-            System.out.printf("Salario bruto (%.0f" , (hora) );
-            System.out.printf( " * %.0f" , (valorHora) );
+            System.out.printf("Salario bruto (%.0f", salario.getHora());
+            System.out.printf(" * %.0f", salario.getValorHora());
             System.out.printf(") : .........R$ %.2f%n ", salario.salarioBruto(hora, valorHora));
-            System.out.printf("(-) IR (%.0f" , irpf);
+            System.out.printf("(-) IR (%.0f", irpf);
             System.out.printf("): ......R$ %.2f%n ", salario.irpf(hora, valorHora));
-            System.out.printf("(-) INSS (%.0f" , inss );
+            System.out.printf("(-) INSS (%.0f", inss);
             System.out.printf(") : .........R$ %.2f%n", salario.inss(hora, valorHora));
             System.out.print("FGTS (11%): .............R$");
             System.out.printf("%.2f%n ", salario.fgts(hora, valorHora));
