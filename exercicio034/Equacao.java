@@ -8,13 +8,15 @@ public class Equacao {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner leitor = new Scanner(System.in);
-
+        
         try {
             System.out.print("Digite o valor de a: ");
             double valorA = leitor.nextInt();
             if (valorA == 0) {
                 System.out.println("Não é uma equação de 2º grau");
                 return;
+                
+
             }
 
             System.out.print("Digite o valor de b: ");
@@ -37,8 +39,8 @@ public class Equacao {
             } else {
                 System.out.printf("A equação possui duas raiz reais: Raiz1=  %.0f, Raiz2=  %.0f", raiz1, raiz2);
             }
-
             leitor.close();
+
         } catch (InputMismatchException e) {
             System.out.println("Erro: Entrada invalida");
         }
