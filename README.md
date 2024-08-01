@@ -125,16 +125,17 @@ As Organizações Tabajara resolveram dar um aumento de salário aos seus colabo
 
 Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
 
-salários até R$ 280,00 (incluindo) : aumento de 20%
-salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
-salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
-salários de R$ 1500,00 em diante :
-    aumento de 5% Após o aumento ser realizado,
-informe na tela:
-    o salário antes do reajuste;
-    o percentual de aumento aplicado;
-    o valor do aumento;
-    o novo salário, após o aumento.
+- salários até R$ 280,00 (incluindo) : aumento de 20%;
+- salários entre R$ 280,00 e R$ 700,00 : aumento de 15%;
+- salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%;
+- salários de R$ 1500,00 em diante : aumento de 5%;
+    
+    #### Após o aumento ser realizado, informe na tela:
+    - o salário antes do reajuste;
+    - o percentual de aumento aplicado;
+    - o valor do aumento;
+    - o novo salário, após o aumento.
+    
 ## Exercicio 030
 Faça um programa para o cálculo de uma folha de pagamento, sabendo que os descontos são do Imposto de Renda, que depende do salário bruto (conforme tabela abaixo) e 10% para o INSS e que o FGTS corresponde a 11% do Salário Bruto, mas não é descontado (é a empresa que deposita).
 
