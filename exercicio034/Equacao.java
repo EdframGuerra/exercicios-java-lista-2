@@ -14,6 +14,7 @@ public class Equacao {
             double valorA = leitor.nextInt();
             if (valorA == 0) {
                 System.out.println("Não é uma equação de 2º grau");
+                leitor.close();
                 return;
                 
 
