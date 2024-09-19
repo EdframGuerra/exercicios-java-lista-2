@@ -19,7 +19,7 @@ public class ProgramaCarne {
 
             System.out.print("Digite o tipo de carne (File Duplo, Alcatra ou Picanha): ");
             String tipoCarne = leitor.nextLine();
-            if (tipoCarne.equalsIgnoreCase("File Duplo") && tipoCarne.equalsIgnoreCase(", Alcatra ") && tipoCarne.equalsIgnoreCase("Picanha")) {
+            if (tipoCarne.equalsIgnoreCase("File Duplo") || tipoCarne.equalsIgnoreCase(", Alcatra ") || tipoCarne.equalsIgnoreCase("Picanha")) {
                 System.out.println("Tipo de carne inválido!");
                 return;
             }
@@ -73,6 +73,5 @@ public class ProgramaCarne {
         } catch (InputMismatchException e) {
             System.out.println("Erro: Entrda invalida");
         }
-    }
     }
 }
